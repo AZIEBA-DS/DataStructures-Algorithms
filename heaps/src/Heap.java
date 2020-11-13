@@ -68,6 +68,10 @@ public class Heap implements IHeap {
 
 	@Override
 	public void clear() {
+		int run = size();
+		for (int i = 0; i < run; i++) {
+			removeTop();
+		}
 	}
 
 	@Override
