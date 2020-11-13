@@ -20,7 +20,9 @@ public class Main {
 		h.toString();
 
 		h.removeTop();
-
+		System.out.println(h);
+		
+		h.clear();
 		System.out.println(h);
 	}
 }
